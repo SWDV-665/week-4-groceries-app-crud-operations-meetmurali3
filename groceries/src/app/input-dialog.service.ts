@@ -26,6 +26,8 @@ export class InputDialogService {
       },
       {
         name: 'quantity',
+        //This is going to show the quantity dial where user can increase 
+        //or decrease quantity using up and down arrows
         type: 'number',
         min: 1,
         max:20,
